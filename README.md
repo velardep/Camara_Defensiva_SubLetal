@@ -30,14 +30,6 @@ Mientras el código Python esté en ejecución, el sistema funcionará en tiempo
 ---
 
 ## Tecnologías usadas
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/PlatformIO-2D9EE0?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
-</p>
-
-
 - Python (OpenCV, YOLO para detección de movimiento).
     <p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -66,8 +58,6 @@ Mientras el código Python esté en ejecución, el sistema funcionará en tiempo
 - Python 3.8 o superior instalado en el sistema.
 - Drivers para ESP32 instalados (PlatformIO usualmente los maneja).
 - Librerías Python necesarias según `requirements.txt`.
-
----
 
 ### Pasos para iniciar el sistema en Visual Studio Code
 
@@ -101,6 +91,42 @@ Mientras el código Python esté en ejecución, el sistema funcionará en tiempo
      python main.py
      ```
 
----
+## Capturas y Fotos del Sistema
+
+Aquí puedes ver algunas imágenes de la cámara defensiva en funcionamiento y su montaje:
+
+<p align="center">
+    <img src="demo/lateral.png" alt="Cámara defensiva vista lateral" width="400" />
+    <img src="demo/montaje_conexiones.jpg" alt="Montaje de conexiones" width="400" />
+    <img src="demo/montaje_final.jpg" alt="Montaje final" width="400" />
+    <img src="demo/conexiones.jpg" alt="Conexiones" width="400" />
+</p>
+
+## Especificaciones del Hardware
+
+Este sistema está compuesto por los siguientes módulos electrónicos:
+
+### Alimentación y conexión
+- **Fuente USB de PC:** Proporciona energía al sistema desde el computador.
+- **Protoboard + Módulo YwRobot:** Distribuye voltajes de 5V y 3.3V mediante fuente externa o USB.
+
+### Microcontrolador
+- **ESP32 DevKit v1:** Unidad central de control con conectividad Wi-Fi y Bluetooth. Envía señales PWM para servos y controla el módulo relay.
+
+### Actuadores
+- **2 Servomotores MG90S:** Controlan los movimientos en eje X e Y de la cámara.
+- **Motor DC ("Pistola"):** Activado por un módulo relay para simular una acción disuasiva.
+
+### Controlador de potencia
+- **Módulo Relay de 1 canal:** Permite al ESP32 activar/desactivar el motor DC según la lógica del sistema.
+
+### Fuente externa
+- **Batería Li-Ion 3.7V (14500):** Alimenta el motor de la pistola a través del relay.
+
+### Conexiones
+- **Rojo:** VCC (5V)  
+- **Negro/Marrón:** GND  
+- **Amarillo/Celeste:** Señales PWM/control desde el ESP32 a los servos y relay
+
 
 **Nota:** El sistema funciona en dos fases separadas: primero, se ejecuta el firmware en el ESP32 que controla los servos; una vez que ese proceso termina y es detenido, se inicia el script Python que realiza la detección, genera alertas y activa el mecanismo de disparo mediante el ESP32. Mientras el script Python esté en ejecución, el sistema estará activo y funcionando correctamente.
