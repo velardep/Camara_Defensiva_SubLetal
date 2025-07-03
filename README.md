@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/velardep/Camara_Defensiva_SubLetal/main/docs/logo.png" alt="Logo Camara Defensiva" width="300"/>
-</p>
-
 # Sistema de Cámara Defensiva Subletal
 
 Sistema integrado para detección de movimientos en tiempo real mediante visión artificial y control de hardware. Este proyecto utiliza Python para procesamiento de video y detección, y C++ para el manejo de microcontroladores y servomotores que activan un mecanismo de disparo disuasivo.
