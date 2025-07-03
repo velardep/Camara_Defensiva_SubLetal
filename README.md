@@ -95,10 +95,23 @@ Mientras el código Python esté en ejecución, el sistema funcionará en tiempo
 
 Aquí puedes ver algunas imágenes de la cámara defensiva en funcionamiento y su montaje:
 
+- Cámara defensiva vista lateral.
 <p align="center">
     <img src="demo/lateral.png" alt="Cámara defensiva vista lateral" width="400" />
+</p>
+
+- Montaje de conexiones.
+<p align="center">
     <img src="demo/montaje_conexiones.jpg" alt="Montaje de conexiones" width="400" />
+</p>
+
+- Montaje final.
+<p align="center">
     <img src="demo/montaje_final.jpg" alt="Montaje final" width="400" />
+</p>
+
+- Conexiones.
+<p align="center">
     <img src="demo/conexiones.jpg" alt="Conexiones" width="400" />
 </p>
 
