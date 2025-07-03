@@ -115,6 +115,11 @@ Aquí puedes ver algunas imágenes de la cámara defensiva en funcionamiento y s
     <img src="demo/conexiones.jpg" alt="Conexiones" width="400" />
 </p>
 
+- Modelado de piezas en SolidWorks.
+<p align="center">
+    <img src="demo/piezas.png" alt="Conexiones" width="400" />
+</p>
+
 ## Especificaciones del Hardware
 
 Este sistema está compuesto por los siguientes módulos electrónicos:
