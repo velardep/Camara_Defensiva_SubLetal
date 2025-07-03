@@ -31,8 +31,26 @@ Mientras el código Python esté en ejecución, el sistema funcionará en tiempo
 
 ## Tecnologías usadas
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/PlatformIO-2D9EE0?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
+</p>
+
+
 - Python (OpenCV, YOLO para detección de movimiento).
+    <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    </p>
 - C++ para firmware en ESP32 (control de servomotores).
+    <p>
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+    </p>
+- Extensión PlatformIO IDE
+    <p>
+    <img src="https://img.shields.io/badge/PlatformIO-2D9EE0?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
+    </p>
+
 - SolidWorks para modelado 3D.
 - Impresión 3D para fabricación del soporte físico.
 - Git para control de versiones.
