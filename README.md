@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://www.python.org/static/community_logos/python-logo.png" width="300" alt="Python Logo">
+  </a>
+</p>
+
 # Sistema de Cámara Defensiva Subletal
 
 Sistema integrado para detección de movimientos en tiempo real mediante visión artificial y control de hardware. Este proyecto utiliza Python para procesamiento de video y detección, y C++ para el manejo de microcontroladores y servomotores que activan un mecanismo de disparo disuasivo.
