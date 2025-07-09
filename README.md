@@ -3,6 +3,11 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="160" alt="Python Logo">
   </a>
 </p>
+<p align="center">
+  <a href="https://isocpp.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.svg" width="120" alt="C++ Logo">
+  </a>
+</p>
 
 
 # Sistema de Cámara Defensiva Subletal
